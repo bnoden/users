@@ -1,0 +1,55 @@
+.table tbody tr:nth-of-type(odd) {
+  /* background-color: rgba(204, 255, 241, 0.1); */
+  cursor: pointer;
+}
+
+.table tbody tr:nth-of-type(even) {
+  /* background-color: rgba(254, 255, 234, 0.1); */
+  cursor: pointer;
+}
+
+/*
+
+.selected-row {
+  background-color: #adffb3;
+} */
+
+table thead .caret {
+ display: inline-block;
+ width: 0;
+ height: 0;
+ margin-left: 0.2em;
+ vertical-align: middle;
+ border-top: 4px dashed;
+ border-top: 4px solid \9;
+ border-right: 4px solid transparent;
+ border-left: 4px solid transparent;
+ color: rgba(160, 191, 170, 0.54);
+}
+
+table thead .dropup .caret,
+table thead .navbar-fixed-bottom .dropdown .caret {
+ border-top: 0;
+ border-bottom: 4px dashed;
+ border-bottom: 4px solid \9;
+ content: "";
+}
+
+select#number-filter-comparator-ID {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+input#number-filter-column-ID {
+  width: 5rem;
+}
+
+.btn_advanced, .btn_search {
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+body.modal-under {
+  background-color: #666666;
+}

@@ -1,0 +1,33 @@
+::placeholder {
+  font-style: italic;
+  /* padding-left: 1.8rem; */
+  margin-left: 264px;
+}
+
+.has-search .search-bar-icon {
+  text-align: right;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1rem;
+  pointer-events: none;
+  color: #ECEFFB;
+  margin-left: 0.2rem;
+  margin-top: 0.3rem;
+}
+
+.search-bar-icon {
+
+}
+
+input.form-control {
+  height: 40px;
+  font-size: 18px;
+  line-height: 1.2;
+  overflow: auto;
+  resize: none;
+  padding-right: 300px;
+  padding-left: 2.5rem;
+}

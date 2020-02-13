@@ -1,0 +1,40 @@
+.jumbotron {
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+}
+
+.btn_close {
+  cursor: pointer;
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.profile-detail {
+  flex: 1;
+  padding: 1rem;
+}
+
+.profile-left {
+  color: #ffffff;
+  background-color: #0d2a5a;
+}
+
+.profile-center {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-right {
+  background-color: #fffff4;
+}
+
+.profile-img {
+  border-radius: 49.9%;
+  background-color: #f3fbff;
+  border: 2px solid #f3fbff;
+  box-shadow: inset 0 1.5px 3px 0 rgba(0,0,0,.15), 0 1.5px 3px 0 rgba(0,0,0,.15);
+}
